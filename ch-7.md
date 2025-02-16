@@ -113,7 +113,9 @@ typeof /test/gi  // object
 typeof function () {}  // function 
 ```
 위처럼 typeof 연산자가 반환하는 문자열은 7개의 데이터 타입과 정확히 일치하지는 않는다.  
-> **null 값을 연산해보면 null 이 아닌 object 를 반환한다.**
+> **null 값을 연산해보면 null 이 아닌 object 를 반환한다.**  
+
+<br />
 
 > [!Warning]
 > 선언되지 않은 식별자를 typeof 연산자로 연산해보면 undefined 를 반환한다.
